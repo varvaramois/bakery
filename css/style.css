@@ -53,11 +53,18 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+.header {
+  padding-top: 55px;
+  padding-bottom: 71px;
+}
 .nav-list-item {
   /* color: #FFF; */
   font-size: 24px;
   font-weight: 200;
   line-height: normal;
+}
+.hero {
+  padding-bottom: 125px;
 }
 .hero-title {
   /* color: #FFF; */
@@ -82,6 +89,9 @@ img {
   border-color: var(--accent-color);
   border-radius: 17px;
 }
+.products {
+  padding-bottom: 57px;
+}
 .products-price {
   /* color: #FFF; */
   font-size: 24px;
@@ -99,6 +109,9 @@ img {
   width: 79px;
   height: 34px;
   border-color: #c85312;
+}
+.menu {
+  padding-bottom: 163px;
 }
 .menu-title {
   /* color: #FFF; */
@@ -120,6 +133,9 @@ img {
   border-color: var(--accent-color);
   border-radius: 17px;
 }
+.recipes {
+  padding-bottom: 103px;
+}
 .recipes-title {
   /* color: #FFF; */
   font-family: Italiana;
@@ -132,6 +148,9 @@ img {
   font-size: 24px;
   font-weight: 500;
   line-height: normal;
+}
+.advantages {
+  padding-bottom: 118px;
 }
 .advantages-title {
   /* color: #D9D9D9; */
@@ -146,6 +165,9 @@ img {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.footer {
+  padding-bottom: 44px;
 }
 .footer-first-title {
   /* color: #FFF; */
