@@ -36,7 +36,6 @@ img {
 .link {
   text-decoration: none;
 }
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -51,89 +50,80 @@ img {
 }
 .nav-list-item {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 24px;
-font-style: normal;
 font-weight: 200;
 line-height: normal; 
 }
 .hero-title {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 70px;
-font-style: normal;
 font-weight: 200;
 line-height: normal; 
 }
 .hero-text {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 21px;
-font-style: normal;
 font-weight: 300;
 line-height: normal; 
 }
 .hero-btn {
-    /* color: #FFF; */
-font-family: Inter;
+    color: var(--main-color);
 font-size: 24px;
-font-style: normal;
 font-weight: 300;
-line-height: normal; 
+line-height: normal;
+background: var(--accent-color);
+width: 207px;
+height: 57px;
+border-color: var(--accent-color);
+border-radius: 17px;
 }
 .products-price {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 24px;
-font-style: normal;
 font-weight: 200;
 line-height: normal; 
 }
 .products-title {
     /* color: #FFF; */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: normal; 
 }
 .products-btn {
-    /* color: #FFF; */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
+    color: var(--main-color);
 font-weight: 900;
-line-height: normal; 
+background:  #C85312;
+width: 79px;
+height: 34px;
+border-color: #C85312;
 }
 .menu-title {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 64px;
-font-style: normal;
 font-weight: 100;
 line-height: normal; 
 }
 .menu-item-title, .menu-btn {
-    /* color: #FFF; */
-font-family: Inter;
+    color: var(--main-color);
 font-size: 25.92px;
-font-style: normal;
 font-weight: 800;
 line-height: normal; 
+}
+.menu-btn {
+    background: var(--accent-color);
+    width: 160px;
+    height: 41px; 
+border-color: var(--accent-color);
+border-radius: 17px;
 }
 .recipes-title {
     /* color: #FFF; */
 font-family: Italiana;
 font-size: 64px;
-font-style: normal;
 font-weight: 400;
 line-height: normal; 
 }
 .recipes-text {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 24px;
-font-style: normal;
 font-weight: 500;
 line-height: normal; 
 }
@@ -141,13 +131,11 @@ line-height: normal;
     /* color: #D9D9D9; */
 font-family: Italiana;
 font-size: 48px;
-font-style: normal;
 font-weight: 400;
 line-height: normal; 
 }
 .advantages-list-item {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
@@ -155,23 +143,18 @@ line-height: normal;
 }
 .footer-first-title {
     /* color: #FFF; */
-font-family: Italiana;
 font-size: 48px;
-font-style: normal;
 font-weight: 400;
 line-height: normal; 
 }
 .footer-item-title {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 40px;
-font-style: normal;
 font-weight: 400;
 line-height: normal; 
 }
-.footer-contacts-item {
+.contacts-link, .footer-item-text, .information-link {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 300;
@@ -179,17 +162,19 @@ line-height: normal;
 }
 .footer-second-title {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 40px;
-font-style: normal;
 font-weight: 200;
 line-height: normal; 
 }
 .footer-headline {
     /* color: #FFF; */
-font-family: Inter;
 font-size: 20px;
-font-style: normal;
 font-weight: 300;
+line-height: normal; 
+}
+.copyright {
+    /* color: #FFF; */
+font-size: 20px;
+font-weight: 100;
 line-height: normal; 
 }
