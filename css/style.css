@@ -1,8 +1,8 @@
 :root {
-  --main-color: #FFF;
-  --add-white:  #D9D9D9;
-  --main-bg-color:  #202023; 
-  --accent-color: #B47B48; 
+  --main-color: #fff;
+  --add-white: #d9d9d9;
+  --main-bg-color: #202023;
+  --accent-color: #b47b48;
 }
 body {
   font-family: Inter;
@@ -48,133 +48,141 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .nav-list-item {
-    /* color: #FFF; */
-font-size: 24px;
-font-weight: 200;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 24px;
+  font-weight: 200;
+  line-height: normal;
 }
 .hero-title {
-    /* color: #FFF; */
-font-size: 70px;
-font-weight: 200;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 70px;
+  font-weight: 200;
+  line-height: normal;
 }
 .hero-text {
-    /* color: #FFF; */
-font-size: 21px;
-font-weight: 300;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 21px;
+  font-weight: 300;
+  line-height: normal;
 }
 .hero-btn {
-    color: var(--main-color);
-font-size: 24px;
-font-weight: 300;
-line-height: normal;
-background: var(--accent-color);
-width: 207px;
-height: 57px;
-border-color: var(--accent-color);
-border-radius: 17px;
+  color: var(--main-color);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+  background: var(--accent-color);
+  width: 207px;
+  height: 57px;
+  border-color: var(--accent-color);
+  border-radius: 17px;
 }
 .products-price {
-    /* color: #FFF; */
-font-size: 24px;
-font-weight: 200;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 24px;
+  font-weight: 200;
+  line-height: normal;
 }
 .products-title {
-    /* color: #FFF; */
-font-weight: 500;
+  /* color: #FFF; */
+  font-weight: 500;
 }
 .products-btn {
-    color: var(--main-color);
-font-weight: 900;
-background:  #C85312;
-width: 79px;
-height: 34px;
-border-color: #C85312;
+  color: var(--main-color);
+  font-weight: 900;
+  background: #c85312;
+  width: 79px;
+  height: 34px;
+  border-color: #c85312;
 }
 .menu-title {
-    /* color: #FFF; */
-font-size: 64px;
-font-weight: 100;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 64px;
+  font-weight: 100;
+  line-height: normal;
 }
-.menu-item-title, .menu-btn {
-    color: var(--main-color);
-font-size: 25.92px;
-font-weight: 800;
-line-height: normal; 
+.menu-item-title,
+.menu-btn {
+  color: var(--main-color);
+  font-size: 25.92px;
+  font-weight: 800;
+  line-height: normal;
 }
 .menu-btn {
-    background: var(--accent-color);
-    width: 160px;
-    height: 41px; 
-border-color: var(--accent-color);
-border-radius: 17px;
+  background: var(--accent-color);
+  width: 160px;
+  height: 41px;
+  border-color: var(--accent-color);
+  border-radius: 17px;
 }
 .recipes-title {
-    /* color: #FFF; */
-font-family: Italiana;
-font-size: 64px;
-font-weight: 400;
-line-height: normal; 
+  /* color: #FFF; */
+  font-family: Italiana;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: normal;
 }
 .recipes-text {
-    /* color: #FFF; */
-font-size: 24px;
-font-weight: 500;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
 }
 .advantages-title {
-    /* color: #D9D9D9; */
-font-family: Italiana;
-font-size: 48px;
-font-weight: 400;
-line-height: normal; 
+  /* color: #D9D9D9; */
+  font-family: Italiana;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
 }
 .advantages-list-item {
-    /* color: #FFF; */
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .footer-first-title {
-    /* color: #FFF; */
-font-size: 48px;
-font-weight: 400;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
 }
 .footer-item-title {
-    /* color: #FFF; */
-font-size: 40px;
-font-weight: 400;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 40px;
+  font-weight: 400;
+  line-height: normal;
 }
-.contacts-link, .footer-item-text, .information-link {
-    /* color: #FFF; */
-font-size: 24px;
-font-style: normal;
-font-weight: 300;
-line-height: normal; 
+.contacts-link,
+.footer-item-text,
+.information-link {
+  /* color: #FFF; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 .footer-second-title {
-    /* color: #FFF; */
-font-size: 40px;
-font-weight: 200;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 40px;
+  font-weight: 200;
+  line-height: normal;
 }
 .footer-headline {
-    /* color: #FFF; */
-font-size: 20px;
-font-weight: 300;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
 }
 .copyright {
-    /* color: #FFF; */
-font-size: 20px;
-font-weight: 100;
-line-height: normal; 
+  /* color: #FFF; */
+  font-size: 20px;
+  font-weight: 100;
+  line-height: normal;
 }
