@@ -1,6 +1,8 @@
 :root {
   --main-color: #FFF;
   --add-white:  #D9D9D9;
+  --main-bg-color:  #202023; 
+  --accent-color: #B47B48; 
 }
 body {
   font-family: Inter;
@@ -46,4 +48,148 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.nav-list-item {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal; 
+}
+.hero-title {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 70px;
+font-style: normal;
+font-weight: 200;
+line-height: normal; 
+}
+.hero-text {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 300;
+line-height: normal; 
+}
+.hero-btn {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal; 
+}
+.products-price {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 200;
+line-height: normal; 
+}
+.products-title {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+.products-btn {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 900;
+line-height: normal; 
+}
+.menu-title {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 100;
+line-height: normal; 
+}
+.menu-item-title, .menu-btn {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 25.92px;
+font-style: normal;
+font-weight: 800;
+line-height: normal; 
+}
+.recipes-title {
+    /* color: #FFF; */
+font-family: Italiana;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+.recipes-text {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal; 
+}
+.advantages-title {
+    /* color: #D9D9D9; */
+font-family: Italiana;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+.advantages-list-item {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.footer-first-title {
+    /* color: #FFF; */
+font-family: Italiana;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+.footer-item-title {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+.footer-contacts-item {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal; 
+}
+.footer-second-title {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 200;
+line-height: normal; 
+}
+.footer-headline {
+    /* color: #FFF; */
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal; 
 }
