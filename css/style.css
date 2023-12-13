@@ -114,6 +114,7 @@ img {
   );
   width: 310px;
   height: 225px;
+transition: all 0.3s;
 }
 .products-list-item:hover,
 .products-list-item:focus {
