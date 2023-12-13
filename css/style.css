@@ -260,7 +260,7 @@ img {
   background-position: center;
 }
 .advantages-list-item:nth-child(2):before {
-/* нема слів..як скачати повністю цю свґ з макету? */
+  /* нема слів..як скачати повністю цю свґ з макету? */
   background-image: url(..//images/advantages_img2.svg);
 }
 .advantages-list-item:nth-child(3):before {
