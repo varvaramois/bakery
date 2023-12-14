@@ -70,6 +70,11 @@ img {
 .nav-link {
   color: var(--main-color);
 }
+.nav-link:hover, .nav-link:focus {
+  color: var(--accent-color);
+  font-weight: 500;
+  transition: all 0.3s;
+}
 .hero {
   padding-bottom: 125px;
 }
@@ -95,6 +100,11 @@ img {
   height: 57px;
   border-color: var(--accent-color);
   border-radius: 17px;
+}
+.hero-btn:hover, .hero-btn:focus {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s;
 }
 .products {
   padding-bottom: 57px;
@@ -142,8 +152,11 @@ img {
   color: var(--main-color);
   font-weight: 900;
   background: #c85312;
-  border-color: #c85312;
+  border: none;
   padding: 10px 22px 5px;
+}
+.products-btn:hover, .products-btn:focus {
+  cursor: pointer;
 }
 .menu {
   padding-bottom: 163px;
@@ -165,9 +178,15 @@ img {
   font-weight: 800;
   line-height: normal;
 }
+.menu-btn:hover, .menu-btn:focus {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s;
+}
 .menu-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   row-gap: 12px;
   column-gap: 198px;
 }
@@ -181,6 +200,7 @@ img {
   text-align: center;
 }
 .menu-btn {
+  margin: 0 90px auto;
   margin-top: 9px;
   background: var(--accent-color);
   width: 160px;
@@ -262,6 +282,7 @@ img {
 .advantages-list-item:nth-child(2):before {
   /* нема слів..як скачати повністю цю свґ з макету? */
   background-image: url(..//images/advantages_img2.svg);
+  background-position: left top;
 }
 .advantages-list-item:nth-child(3):before {
   background-image: url(../images/advantages_img1.svg);
@@ -277,13 +298,20 @@ img {
   line-height: normal;
   margin-bottom: 44px;
 }
+.footer-iframe {
+  margin-right: 133px;
+}
 .footer-list {
   display: flex;
 }
 .footer-item-title {
+  margin-bottom: 49px;
   font-size: 40px;
   font-weight: 400;
   line-height: normal;
+}
+.footer-list-item {
+  margin: 0 auto;
 }
 .contacts-link,
 .footer-item-text,
@@ -295,11 +323,23 @@ img {
   font-weight: 300;
   line-height: normal;
 }
-.footer-information-list {
-  display: flex;
+.contacts-link:hover, .contacts-link:focus,
+.information-link:hover, .information-link:focus {
+  color: var(--accent-color);
+}
+.footer-contacts-item:nth-child(1) {
+  margin-bottom: 65px;
+}
+.footer-address {
+  margin-bottom: 30px;
 }
 .footer-information-title {
   margin-bottom: 41px;
+}
+.footer-information-list {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
 }
 .footer-second-title {
   font-size: 40px;
@@ -307,11 +347,13 @@ img {
   line-height: normal;
 }
 .footer-headline {
+  margin: 0 auto;
   font-size: 20px;
   font-weight: 300;
   line-height: normal;
 }
 .copyright {
+  margin-top: 86px;
   text-align: center;
   font-size: 20px;
   font-weight: 100;
