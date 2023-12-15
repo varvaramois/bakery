@@ -72,7 +72,6 @@ img {
 }
 .nav-link:hover, .nav-link:focus {
   color: var(--accent-color);
-  font-weight: 500;
   transition: all 0.3s;
 }
 .hero {
@@ -226,8 +225,14 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.recipes-photo {
+.recipes-photo1, .recipes-photo2, .recipes-photo3 {
   margin: 0 auto;
+}
+.recipes-photo2 {
+  padding-top: 84px;
+}
+.recipes-photo3 {
+  padding-top: 123px;
 }
 .recipes-numbered-list {
   margin-top: 20px;
@@ -326,6 +331,7 @@ img {
 .contacts-link:hover, .contacts-link:focus,
 .information-link:hover, .information-link:focus {
   color: var(--accent-color);
+  transition: all 0.3s;
 }
 .footer-contacts-item:nth-child(1) {
   margin-bottom: 65px;
@@ -341,10 +347,15 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.footer-second-title {
+.footer-second-title-link {
+  color: var(--main-color);
   font-size: 40px;
   font-weight: 200;
   line-height: normal;
+}
+.footer-second-title-link:hover, .footer-second-title-link:focus {
+  color: var(--accent-color);
+  transition: all 0.3s;
 }
 .footer-headline {
   margin: 0 auto;
