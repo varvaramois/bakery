@@ -124,10 +124,13 @@ img {
   );
   transition: all 0.3s;
 }
-.products-inf-btn {
+.products-inf-cookie-btn,
+.products-inf-croissant-btn {
+  position: absolute;
+  top: 50px;
   color: var(--main-color);
   background: transparent;
-margin-top: 120px;
+  margin-top: 120px;
   font-weight: 800;
   text-align: center;
   width: 23px;
@@ -135,11 +138,17 @@ margin-top: 120px;
   border: 2px solid var(--main-color);
   border-radius: 50%;
 }
-.products-inf-btn:hover, .products-inf-btn:focus {
-  cursor: pointer;
+.products-inf-cookie-btn {
+  right: 160px;
 }
-.products-list-item:nth-child(2), .products-list-item:nth-child(3) {
-  position: absolute top right;
+.products-inf-croissant-btn {
+  right: 110px;
+}
+.products-inf-cookie-btn:hover,
+.products-inf-cookie-btn:focus,
+.products-inf-croissant-btn:hover,
+.products-inf-croissant-btn:focus {
+  cursor: pointer;
 }
 .products-wrapper {
   text-align: center;
@@ -277,12 +286,17 @@ margin-top: 120px;
   justify-content: space-around;
 }
 .advantages-list-item {
-  text-align: center;
   margin-top: 10px;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.advantages-list-item:first-child {
+  text-align: left;
+}
+.advantages-list:nth-child(2) {
+  text-align: center;
 }
 .advantages-list-item::before {
   content: "";
@@ -293,8 +307,10 @@ margin-top: 120px;
   background-repeat: no-repeat;
   background-position: center;
 }
+.advantages-list-item::before:first-child {
+  margin: 0 auto;
+}
 .advantages-list-item:nth-child(2):before {
-  /* нема слів..як скачати повністю цю свґ з макету? */
   background-image: url(..//images/advantages_img2.svg);
   background-position: left top;
 }
