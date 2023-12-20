@@ -286,7 +286,6 @@ img {
   justify-content: space-around;
 }
 .advantages-list-item {
-  margin-top: 10px;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -306,9 +305,10 @@ img {
   background-image: url(../images/advantages_img3.svg);
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 10px;
 }
 .advantages-list-item::before:first-child {
-  margin: 0 auto;
+  margin-left: 20px;
 }
 .advantages-list-item:nth-child(2):before {
   background-image: url(..//images/advantages_img2.svg);
@@ -333,9 +333,6 @@ img {
 }
 .footer-list {
   display: flex;
-}
-.footer-list-item {
-  margin: 0 auto;
 }
 .footer-item-title {
   margin-bottom: 49px;
@@ -366,6 +363,9 @@ img {
 .footer-address {
   margin-bottom: 30px;
 }
+.footer-item-text {
+  text-align: center;
+}
 .footer-information-title {
   margin-bottom: 41px;
 }
@@ -386,7 +386,7 @@ img {
   transition: all 0.3s;
 }
 .footer-headline {
-  margin: 0 auto;
+  margin-top: 16px;
   font-size: 20px;
   font-weight: 300;
   line-height: normal;
