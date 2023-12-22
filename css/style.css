@@ -307,14 +307,14 @@ img {
   background-position: center;
   margin-bottom: 10px;
 }
-.advantages-list-item::before:first-child {
-  margin-left: 20px;
+.advantages-list-item:first-child::before {
+  margin-left: 18px;
 }
-.advantages-list-item:nth-child(2):before {
+.advantages-list-item:nth-child(2)::before {
   background-image: url(..//images/advantages_img2.svg);
   background-position: left top;
 }
-.advantages-list-item:nth-child(3):before {
+.advantages-list-item:nth-child(3)::before {
   background-image: url(../images/advantages_img1.svg);
 }
 .footer {
