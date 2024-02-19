@@ -310,5 +310,49 @@
         <p class="copyright">&#64;2022 Eatly. All right riserved.</p>
       </div>
     </footer>
+      <div class="container">
+        <button type="button" class="btn-open" data-modal-open>Open</button>
+      </div>
+    </section>
+  </main>
+  <div class="backdrop" data-modal>
+    <div class="modal">
+      <button type="button" class="btn" data-modal-close>
+        <svg width="20" height="20">
+          <use href="./img/symbol-defs.svg#icon-close"></use>
+        </svg>
+      </button>
+      <p class="review-title">Reach out to us!</p>
+      <form class="review-form">
+        <input
+          class="review-input"
+          type="text"
+          name="name"
+          placeholder="Your name*"
+          autofocus
+          required
+        />
+        <input
+          class="review-input"
+          type="email"
+          name="email"
+          placeholder="Your e-mail*"
+          required
+          pattern="/^[^-._]{1}[A-Za-z0-9._-]{1,}@[^-._]{1}[A-Za-z0-9.-]{0,}\.[A-Za-z]{2,4}$/"
+        />
+        <input type="date" class="review-input date-input" name="date" required min="2024-01-20" max="2024-01-27"/>
+        <textarea
+          class="review-message"
+          name="message"
+          id="message"
+          placeholder="Your message*"
+          required
+          maxlength="400"
+        ></textarea>
+        <button class="review-btn" type="submit" disabled>Send message</button>
+      </form>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
   </body>
 </html>
